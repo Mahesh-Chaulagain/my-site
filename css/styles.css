@@ -79,6 +79,10 @@ a:hover{
     border-color: #66bfbf;
 }
 
+.mountain-img{
+    width: 60%;
+}
+
 .intro{
     width:30%;
     margin: auto;
