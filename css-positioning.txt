@@ -1,0 +1,49 @@
+# HTMl elements already has predefined rules to display it in webpage
+->Rules on how elements get render on the screen
+1.Content is everything
+2.Order comes from code
+3.Children sit on parents->z-axis defines which element will be displayed on the other one
+    e.g parent:<div>
+            children:<h1> a programmer</h1>
+            </div>
+
+# Position
+-> positon elements on the screen in the way that we want to instead of default layout
+-> 4 positioning types:
+
+1. Static Position
+-> go along with the html rules and keep to the default html flow
+
+2. Relative Position
+-> poition the element that we select relative to how it would have been positioned had it been static
+-> is relative to where the element would have been diaplayed if it was just following the natural html flow
+-> coordinates:top,bottom,left,right must be set for it to work like {position:relative; top:20px;}
+-> when element having relative positioning is moved it doesn't affect the position of other elements on the screen
+
+3. Absolute Position
+-> position the element relative to its parent
+->  eg div{position:relative;}
+        img{
+            position:absolute;
+            right:30px;
+        }
+    Here parent is div and the 30px right margin is added between the image and div element
+-> affects the flow of the html
+-> the parent must have display set to relative inorder for the element to have absolute positioining relative to that parent 
+   else it will position relative to body
+
+4. Fixed Position
+-> element stays in its current position no matter of the scroll
+-> e.g {position:fixed; 
+        top:0}
+-> useful for navbar/sidbar that is to be stayed fixed so that it follows the user as they scroll through the website
+
+# Float property:
+-> helps to wrap the text around certain element
+-> don't use it for positioining instead use relative or absolute positioning or using margin and padding
+-> eg. {float: left;}
+
+# Clear property:
+-> prevents element from wrapping anything in specified direction
+-> eg.{clear:left;}
+    makes sure that the left margin is cleared and not wrapped around anything

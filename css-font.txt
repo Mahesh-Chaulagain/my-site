@@ -1,0 +1,31 @@
+# Font-family
+-> among 6 types only 3 types are used:
+
+1.Monospace:
+-> each of the character inside the text take same amount of width
+-> mostly used for writing code
+-> makes everything super easy to read
+
+2.Serif and 3.Sans-Serif:
+-> for normal website styling
+-> serif is by default font styling method
+-> for most browser default serif is times font and default sans-serif is arial font
+-> to change the default sans-serif from arial to verdana use:
+    {font-family: verdana, sans-serif}
+
+3.Cursive and Fantasy:
+-> generally not used
+-> has low readability
+-> don't look that great
+
+# Font-size:
+-> to make dynamic fonts change the font-size to % rather than px
+-> 100% equals to 16px size
+-> another way to make dynamic font is by using "em"
+-> 1em is 16px
+-> 16px = 100% = 1em
+
+*NOTE: font-size if dynamic gets inherited and added on top of whatever it got from its parent
+
+-> "rem"-root em is used to ignore all of the parent setting for the font-size
+-> rem is most recommended as it is the most adoptable,reliable and least error-prone

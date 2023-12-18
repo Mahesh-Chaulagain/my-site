@@ -1,0 +1,12 @@
+# To center the element
+-> add the following to the parent element
+    body{
+        text-align:center;
+    }
+    This will center everything inside that doesn't have the width set
+    
+-> another way is by using margin
+    h1{
+        margin:0 auto 0 auto;   # center horizontally(TRBL)
+    }
+    If the width is set use the margin method

@@ -1,0 +1,5 @@
+# Box-model:
+-> circle shorthand i.e top-right-bottom-left 
+-> padding: space between the text and the element. eg: {padding:20px;}
+-> margin: buffer zone between current element and any other on the screen. eg:{margin:10px;}
+

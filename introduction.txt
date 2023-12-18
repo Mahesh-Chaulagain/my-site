@@ -1,0 +1,54 @@
+# Introduction:
+CSS - Cascading Style Sheets
+
+
+# Inline CSS
+<body style="background-color: blue;">
+
+
+# Internal CSS
+below title section in head element add following
+    <style>
+            body{
+                background-color: #7B66FF;
+            }
+    </style>
+
+
+# External CSS
+add a link external link to the css file as:
+    <link rel="stylesheet" href="css/styles.css">
+
+
+# Priority order 
+    inline > internal > external
+
+
+# Anatomy of css syntax
+-> syntax: selector{property:value;}
+-> defined as: who?{what?:how?;}
+-> eg: h1{color:red;}
+-> best practise is to have properties in alphabetical order
+
+
+# Comments in css
+/* this is comment */
+
+
+# id vs classes
+-> use id to apply a specifc style to a single element on the webpage
+-> use classes when you want to apply same style to the group of related items
+-> cant have more than one id for a particular element
+
+
+# Pseudoclass
+-> keywords have colon(:) infront
+-> html elements can have different states
+-> make changes to the elements based on its state
+-> eg: hover Pseudoclass
+    image:hover {
+        background-color:gold;
+    }
+
+
+

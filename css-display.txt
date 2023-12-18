@@ -1,0 +1,35 @@
+# Display:
+
+-> 6 different values
+
+1.Block
+-> takes up whole width of the screen
+-> block everything from being on the same line with themselves
+-> common block elements: <p>,<headers h1..h6>,<div>,<ol>,<ul>,<li>,<form> 
+
+2.Inline
+-> takes up only as much space as it needs to
+-> commom inline elements: <span>,<img>,<a>
+-> with inline elements width can't be changed
+
+3.Inline-Block
+-> can change width and height
+-> the elemnts can be added in the same line next to each other
+
+4.None
+-> get rid of element
+-> display:none hides the element from the web page
+-> visibility:hidden makes the element disapper but it keeps its original position and all other elements flow around it
+
+5.Flex
+-> parent with display set to flex will have children in a single line
+-> set flex-direction to either row or column to change flex layout
+-> use justify-content to align items horizontally when direction in row and vertically when direction in column
+-> use align-items to align items vertically when direction in column and horizontally when direction in row
+
+6.Grid
+-> works two dimensionally
+-> to create three columns use-
+	grid-template-columns: 1fr 1fr 1fr; or repeat(3,1fr)
+   to create rows use grid-template-rows
+-> allows to easily take any element and move it anywhere in that grid
