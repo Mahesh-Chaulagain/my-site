@@ -1,0 +1,6 @@
+# Priority Order:
+-> the last css rule has priority over anything above it
+-> a class is more specific than html element so higher priority
+-> id has the highest priority among above all
+-> inline css property has the higher priority than the id
+

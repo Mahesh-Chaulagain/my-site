@@ -1,0 +1,10 @@
+# DRY principle
+-> D: Don't
+-> R: Repeat
+-> Y: Yourself
+
+# Why refactor:
+1. Readability
+2. Modularity: How easy it is to reuse the code
+3. Efficiency
+4. Length

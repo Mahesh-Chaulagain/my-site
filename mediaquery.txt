@@ -1,0 +1,14 @@
+# Media Query:
+-> Make responsive website
+-> looks nice on all devices whether mobile, desktop or tablet
+-> Syntax:  @media <type> <features>
+-> Example: make changes if screen size is as defined-
+            @media (min-width: 900px){
+            //Change Something
+            }
+-> Example: if we want to change the look of h1 tag in the website when it is being printed-
+            @media print{
+                h1{
+                    color: red;
+                }
+            }
